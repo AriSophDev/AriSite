@@ -1,0 +1,257 @@
+* {
+    margin: 0%;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+  height: 100px; /* altura fija del header */
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav {
+  height: 100%; /* asegura que el nav ocupe todo el alto del header */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px; /* altura de la imagen */
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 100px; /* asegura que el main empiece debajo del header */
+  padding: 20px;
+}
+
+
+
+p{
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color: plum
+}
+
+.front {
+    padding-left: 600px;
+    padding-top:  300px;
+    font-size: 2rem;
+}
+
+h2 {
+    padding-left: 600px;
+    font-size: 5rem;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    padding-left:600px ;
+    font-size: 1.5rem;
+}
+
+button {
+  position: relative;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+.cssbuttons-io-button {
+  background: #A370F0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+   
+
+
+footer {
+    background-color: 33333;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  
+  footer p {
+    margin: 0;
+   
+  }
+  
+  footer span {
+    color: #FF00FF;
+  }
+
+.skills {
+    position: relative;
+    margin-top: 380px;
+    margin-left: 200px;
+    font-size: 2em;
+}
+
+  h3{
+    color: #FFFFFF;
+  }
+  
+  .detalles {
+    color: #FFFFFF;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu{
+    width: 90%;
+    position: relative;
+    border: 1px solid #7668af; 
+    border-radius: 20px;
+  }
+
+  .menu div {
+    position:relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #7668af;
+  }
+
+  #html-menu{
+    animation: Html-barra 2s forwards;
+  }
+
+  @keyframes Html-barra{
+    100%{
+        width: 100%;
+    }
+  }
+
+  #css-menu {
+    animation: css-barra 2s forwards;
+  }
+
+  @keyframes css-barra{
+    100%{
+        width: 100%;
+    }
+  }
+
+  #Js-menu {
+    animation: js-barra 2s forwards;
+  }
+
+  @keyframes js-barra{
+    100%{
+        width: 80%;
+    }
+  }
+
+.contacto {
+    margin-top: 200px;
+}
+
+.sobremi h3{
+  margin-left: 200px;
+  margin-top: 300px;
+  font-size: 2em;
+}
+
+.sobremi p{
+  margin-right: 150px;
+  margin-top: 50px;
+}

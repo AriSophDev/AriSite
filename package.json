@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "My webSite",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArianDesign/AriSite.git"
+  },
+  "author": "AriSoph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArianDesign/AriSite/issues"
+  },
+  "homepage": "https://github.com/ArianDesign/AriSite#readme"
+}
